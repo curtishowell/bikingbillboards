@@ -67,6 +67,7 @@ pre, code, kbd, samp {
 }
 html {
 	overflow-y: scroll;
+	background-color: #404040;
 }
 a:hover, a:active {
 	outline: none;
@@ -376,7 +377,9 @@ a#logo:hover {
 	float: right;
 	height: 430px;
 	width: 640px;
-	background-image: url(../images/content_panel_03.gif);
+	
+	/*background-image: url(../images/content_panel_03.gif);*/
+	background-color: white;
 }
 
 #main_content_right.results {
@@ -455,6 +458,44 @@ label {
 input {
 	width: 250px;
 }
+
+/*added by @curtishowell*/
+h2 {
+	color: #ffd204;
+	font-size: 16pt;
+	margin-bottom: 10px;
+}
+
+strong {
+	color: #ffd204;
+}
+
+.trailer_section {
+	overflow: hidden;
+	margin-top: 25px;
+	margin-left: -10px;
+}
+
+.trailer_section img {
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.trailer_section p {
+	color: #464646;
+}
+
+.trailer_section img, .trailer_section p {
+	float: left;
+}
+
+
+
+
+
+
+
+
 /*
 	Gallery
 */

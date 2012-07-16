@@ -55,23 +55,51 @@
     <div id="main_content_left"><img src="images/howitworks_01.jpg" width="320" height="430" alt="how it works"></div>
     <div id="main_content_right">
       <div id="story">
-        <p>First, we <strong>set clear goals</strong> for your campaign.<br>
-          It's the best way to make <strong> a real difference.</strong></p>
-        <br>
-        <p>Second, we plan <strong>customized routes and schedules</strong> <br>that <strong>maximize your exposure.</strong></p>
-        <br>
-        <p>Third, we can help you <strong>create a great ad.</strong><br>
-          It can make the difference between <strong>recall and action.</strong></p>
-        <br>
-        <p>Fourth, we <strong>launch the fleet.</strong> <br>
-          Our <strong>smart, friendly riders </strong> make excellent brand ambassadors, <br>and they're experts at <strong>getting your message in front your audience.</strong></p>
-        <br>
-        <p>Take a look:<br>
-        </p>
+		
+			<h2>How it all works:</h2>
+			<p>We offer a smart and personable alternative to ho-hum advertising. <br />
+			By developing targeted, high-visibility routes, your message connects with <br />
+			your customer. The result is cost-effective, eco-friendly, and memorable.</p>
+			
+			<div class="trailer_section">
+				<img src="images/trailer-bullets/1.png" alt="1" />
+				<p>
+					<strong>Set Clear Goals</strong><br />
+					First, we set clear goals for your campaign.<br />
+					It's the best way to make a real difference.
+				</p>			
+			</div>
+			
+			<div class="trailer_section">
+				<img src="images/trailer-bullets/2.png" alt="2" />
+				<p>
+					<strong>Plan the Route</strong><br />
+					Second, we plan customized routes and schedules<br />
+					that maximize your exposure.
+				</p>			
+			</div>
+			
+			<div class="trailer_section">
+				<img src="images/trailer-bullets/3.png" alt="3" />
+				<p>
+					<strong>Create your Billboard</strong><br />
+					Third, we can help you create a great ad.<br />
+					It can make the difference between recall and action.
+				</p>			
+			</div>
+			
+			<div class="trailer_section">
+				<img src="images/trailer-bullets/4.png" alt="4" />
+				<p>
+					<strong>Launch the Fleet</strong><br />
+					Our smart, friendly riders make excellent brand ambassadors,<br />
+					and they're experts at getting your message in front your audience.
+				</p>			
+			</div>
+
       </div>
       <!--story-->
       
-      <div class="the_fleet_animation"><img src="images/thefleet_animation2.gif" width="530" height="140" alt="the fleet animation"></div>
     </div>
     <!--main_content_right--> 
   </div>
