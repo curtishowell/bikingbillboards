@@ -1,4 +1,7 @@
-<?php include("redirect.php") ?>
+<?php 
+	include("redirect.php");
+	include("common_functions.php") 
+?>
 
 <!doctype html>
 <!--[if lt IE 7 ]> <html class="no-js ie6 lt-ie9 lt-ie8 lt-ie7 ie" lang="en"> <![endif]-->
@@ -22,59 +25,45 @@
 </head>
 <body>
 <div id="container">
-  <div id="header_home"> 
-    <!-- Changes by Carter Appleton to support a php based system instead of html
-  	<a id="logo" href="index.html">BikingBillboards</a>
-  	<a id="client_login" href="login.html">Client Login</a>
-  	-->
-  	<a id="logo" href="index.php">BikingBillboards</a>
-  	<a id="client_login" href="login.php">Client Login</a>
-    <div id="header_slogan_home">
-      <p>We offer a <strong>smart</strong> and <strong>personable</strong> alternative to ho-hum advertising.<br>
-        By developing <strong>targeted</strong>, high-visibility routes, your message <strong>connects</strong> with your customer.<br>
-        The result is <strong>cost-effective</strong>, eco-friendly, and <strong>memorable</strong>.</p>
-    </div>
-    
-    <div id="header_nav" class="home">
-      <ul class="clearfix">
-        <!-- Changes by Carter Appleton to support a php based system instead of html
-        <li><a href="whyitseffective.html">why it's effective</a></li>
-        <li><a href="howitworks.html">how it works</a></li>
-        <li><a href="results.html">the results</a></li>
-        <li><a class="active" href="aboutus.html">about us</a></li>
-        <li><a href="contact.html">contact</a></li>
-        -->
-        <li><a href="whyitseffective.php">why it's effective</a></li>
-        <li><a href="howitworks.php">how it works</a></li>
-        <li><a href="results.php">the results</a></li>
-        <li><a class="active" href="aboutus.php">about us</a></li>
-        <li><a href="contact.php">contact</a></li>
-      </ul>
-    </div><!--header nav-->
-  </div>
-  <!--header-->
+
   
-  <div id="main_content_home">
-    <div id="main_content_slideshow"> 
-    <img src="images/home_01.jpg" width="960" height="430" alt="slideshow"/> 
-    <img src="images/home_02.jpg" width="960" height="430" alt="slideshow"/>
-    <img src="images/home_03.jpg" width="960" height="430" alt="slideshow"/> 
-    <img src="images/home_04.jpg" width="960" height="430" alt="slideshow"/> 
-    <img src="images/home_05.jpg" width="960" height="430" alt="slideshow"/> 
-    <img src="images/home_06.jpg" width="960" height="430" alt="slideshow"/> 
- 
-     
-    </div>
-  </div>
+	<?php
+		top(-1);
+	?>
+	
+	
+	<div id="main_content_home">
+	
+	
+		<div id="main_content_slideshow"> 
+		
+			<img src="images/index/carousel-1.jpg" alt="slideshow"/>
+			<img src="images/index/carousel-2.jpg" alt="slideshow"/>
+			<img src="images/index/carousel-3.jpg" alt="slideshow"/>
+			<img src="images/index/carousel-4.jpg" alt="slideshow"/>
+			<img src="images/index/carousel-5.jpg" alt="slideshow"/>
+			<img src="images/index/carousel-6.jpg" alt="slideshow"/>
+			
+		</div><!-- slideshow -->
+		
+		<div id="video_play_button">
+			<img src="images/index/play-video.png">
+		</div>
+		
+		
+	</div>
+
+
+
+
   <!--main_content-->
   
-  <div id="footer">
-    <div id="footer_top"><img src="images/home_footer_03.jpg" width="960" height="130" alt="footer graphic"></div>
-    <div id="footer_bottom">
-      <p>&copy; 2011 Biking Billboards, LLC  |  206.257.2017  |  <a href="http://www.mattdelcomyn.com/">site design: matt delcomyn</a></p>
-    </div>
-  </div>
-  <!--footer--> 
+
+	<?php
+		footer(
+			1
+		);
+	?>
   
 </div>
 <!--container--> 
