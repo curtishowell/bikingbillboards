@@ -1,4 +1,9 @@
-<?php include("redirect.php") ?>
+
+
+<?php 
+	include("redirect.php");
+	include("common_functions.php") 
+?>
 
 <!doctype html>
 <!--[if lt IE 7 ]> <html class="no-js ie6 lt-ie9 lt-ie8 lt-ie7 ie" lang="en"> <![endif]-->
@@ -10,88 +15,88 @@
 <!--<![endif]-->
 <head>
 <meta charset="utf-8" />
-<title>Why it's Effective</title>
+<title>How it Works</title>
 <link rel="stylesheet" href="css/style.css" />
 
+<link rel="icon" 
+      type="image/png" 
+      href="images/favicon/favicon.png" />
+
 <!-- Addition by Carter Appleton -->
-<meta name="description" content="Why Biking Billboards, a smart and personable alternative to ho-hum advertising, is effective."/>
+<meta name="description" content="How Biking Billboards works: simple, smart, customized, friendly..."/>
 <script language="javascript" src="js/googleanalytics.js"></script>
 <!-- End Addition -->
 
 </head>
 <body>
 <div id="container">
-  <div id="header"> 
-    <!-- Changes by Carter Appleton to support a php based system instead of html
-  	<a id="logo" href="index.html">BikingBillboards</a>
-  	<a id="client_login" href="login.html">Client Login</a>
-  	-->
-  	<a id="logo" href="index.php">BikingBillboards</a>
-  	<a id="client_login" href="login.php">Client Login</a>
-    <div id="header_slogan">
-      <p>strong customer connections</p>
-    </div>
-    <div id="header_nav">
-      <ul class="clearfix">
-        <!-- Changes by Carter Appleton to support a php based system instead of html
-        <li><a class="active" href="whyitseffective.html">why it's effective</a></li>
-        <li><a href="howitworks.html">how it works</a></li>
-        <li><a href="results.html">the results</a></li>
-        <li><a href="aboutus.html">about us</a></li>
-        <li><a href="contact.html">contact</a></li>
-        -->
-        <li><a class="active" href="whyitseffective.php">why it's effective</a></li>
-        <li><a href="howitworks.php">how it works</a></li>
-        <li><a href="results.php">the results</a></li>
-        <li><a href="aboutus.php">about us</a></li>
-        <li><a href="contact.php">contact</a></li>
-      </ul>
-    </div>
-    <!--header nav--> 
-  </div>
-  <!--header-->
+
+<?php
+	top(0);
+?>
+
   
   <div id="main_content">
-    <div id="main_content_left"><img src="images/whyeffective_01.jpg" width="320" height="430" alt="whyits effective"></div>
+    <div id="main_content_left"><img src="images/howitworks_01.jpg" width="320" height="430" alt="how it works"></div>
     <div id="main_content_right">
       <div id="story">
-        <h1>Captive Consumers</h1>
-        <p>We take your message to places where your customers congregate.</p>
-        <br>
-        <h1>Responsive Riders</h1>
-        <p>Our riders are stewards for your brand—friendly,<br>
-          smart, and always on the lookout to maximize ad views.</p>
-        <br>
-        <h1>Specialized Route Planning</h1>
-        <p>Using demographic information, our own database of local events, <br>
-          and street-wise knowledge, we design high-visibility routes for every campaign.</p>
-         
-        <h1>Cost-Effective</h1>
-        <p>We reach large groups of targeted consumers at surprisingly low cost.
-        </p>
-         
-        <h1>Eco-Friendly</h1>
-        <p>Our riders burn calories not fossil fuels. <br>
-          It's good for the earth, and consumers pay attention.</p>
-        <br>
-        <h1>Unforgettable</h1>
-        <p>Studies show that mobile billboards have a 97% recall rate, <br>making them the single most
-          effective advertising medium. <br>We add even more value with responsive riders and targeted routes.</p>
+
+		<p>
+			<strong>Captive Consumers</strong><br />
+			We go to places where your customers congregate.
+		</p>
+		
+		<p>
+			<strong>Brand Ambassadors</strong><br />
+			Our riders are stewards for your brand- friendly, smart and always on the lookout<br />
+			for ways to engage with consumers and maximize the impact of your message.
+		</p>
+		
+		<p>
+			<strong>Specialized Route Planning</strong><br />
+			Using demographic information, our own database of local events, <br />
+	          and street-wise knowledge, we design high-visibility routes for every campaign.
+		</p>
+		
+
+		
+		<p>
+			<strong>Cost-Effective</strong><br />
+			We can reach a lot of people at a low cost.
+		</p>
+		
+		<p>
+			<strong>Eco-Friendly</strong><br />
+			Our riders burn calories not fossil fuels. <br />
+			It's good for the earth, and consumers pay attention.
+		</p>
+		
+		<p>
+			<strong>Unforgettable</strong><br />
+			When your ad rolls through a crowd behind a bike, it's unique and disruptive.<br />
+			When our Brand Ambassadors directly engage with hundreds of people- handing<br />
+			out samples, flyers, coupons and brand messages- your ad is unforgettable.
+		</p>
+		
+
       </div>
-      <!--story--> 
+      <!--story-->
       
     </div>
     <!--main_content_right--> 
   </div>
   <!--main_content-->
   
-  <div id="footer">
-    <div id="footer_top"><img src="images/whyeffective_02.jpg" width="960" height="131" alt="footerimage"></div>
-    <div id="footer_bottom">
-      <p>&copy; 2011 Biking Billboards, LLC  |  206.257.2017  |  <a href="http://www.mattdelcomyn.com/">site design: matt delcomyn</a></p>
-    </div>
-  </div>
-  <!--footer--> 
+	
+	<?php
+		footer(
+			array(
+				"images/footer/clients/helmet.jpg",
+				"images/footer/clients/giveaway.jpg",
+				"images/footer/common/city.jpg"
+			)
+		);
+	?>
   
 </div>
 <!--container--> 

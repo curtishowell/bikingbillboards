@@ -1,4 +1,9 @@
-<?php include("redirect.php") ?>
+
+
+<?php 
+	include("redirect.php");
+	include("common_functions.php") 
+?>
 
 <!doctype html>
 <!--[if lt IE 7 ]> <html class="no-js ie6 lt-ie9 lt-ie8 lt-ie7 ie" lang="en"> <![endif]-->
@@ -10,82 +15,168 @@
 <!--<![endif]-->
 <head>
 <meta charset="utf-8" />
-<title>About Us</title>
+<title>How it Works</title>
 <link rel="stylesheet" href="css/style.css" />
 
+<link rel="icon" 
+      type="image/png" 
+      href="images/favicon/favicon.png" />
+
 <!-- Addition by Carter Appleton -->
-<meta name="description" content="All about Biking Billboards, a smart and personable alternative to ho-hum advertising."/>
+<meta name="description" content="How Biking Billboards works: simple, smart, customized, friendly..."/>
 <script language="javascript" src="js/googleanalytics.js"></script>
 <!-- End Addition -->
 
 </head>
 <body>
 <div id="container">
-  <div id="header"> 
-    <!-- Changes by Carter Appleton to support a php based system instead of html
-  	<a id="logo" href="index.html">BikingBillboards</a>
-  	<a id="client_login" href="login.html">Client Login</a>
-  	-->
-  	<a id="logo" href="index.php">BikingBillboards</a>
-  	<a id="client_login" href="login.php">Client Login</a>
-    <div id="header_slogan">
-      <p>committed to your success</p>
-    </div>
-    <div id="header_nav">
-      <ul class="clearfix">
-        <!-- Changes by Carter Appleton to support a php based system instead of html
-        <li><a href="whyitseffective.html">why it's effective</a></li>
-        <li><a href="howitworks.html">how it works</a></li>
-        <li><a href="results.html">the results</a></li>
-        <li><a class="active" href="aboutus.html">about us</a></li>
-        <li><a href="contact.html">contact</a></li>
-        -->
-        <li><a href="whyitseffective.php">why it's effective</a></li>
-        <li><a href="howitworks.php">how it works</a></li>
-        <li><a href="results.php">the results</a></li>
-        <li><a class="active" href="aboutus.php">about us</a></li>
-        <li><a href="contact.php">contact</a></li>
-      </ul>
-    </div>
-    <!--header nav--> 
-  </div>
-  <!--header-->
+
+<?php
+	top(4);
+?>
   
   <div id="main_content">
-    <div id="main_content_left"><img src="images/aboutus_01.jpg" width="320" height="430" alt="about us"></div>
-    <!--maincontent left-->
-    
-    <div id="main_content_right">
-      <div id="portraits"><img src="images/portraits.jpg" width="68" height="310" alt="portraits"></div>
-      <!--portraits-->
-      
-      <div class="bios">
-        <h1>Our Core Team:</h1>
-        <br>
-        <p><strong>Jace Lieberman</strong> - Co-Founder. Jace is a fun-loving, hard-working student who loves both new business challenges and biking. His can-do attitude keeps our staff engaged and makes every campaign successful.</p>
-        <br>
-        <p><strong>Andrea Lieberman</strong> - Co-Founder. Andrea, a property development executive with a strong background in PR, marketing and event-planning, needed a targeted, cost-effective way to market properties. Biking Billboards became the perfect vehicle.</p>
-        <br>
-        <p><strong>Andrew Haeger</strong> - Andrew enjoys combining his keen operational eye for detail with environmentally friendly outdoor pursuits. He keeps everyone on target and on schedule.</p>
-        <br><br>
-        <p><strong>Jesse Bernstein</strong> - Jesse manages our fantastic team of smart, friendly riders. His inspiration and fast-on-his-pedals thinking means our riders get in front of the right people at the right time.</p>
-         
-      </div>
-      <!--bios--> 
-      
-    </div>
-    <!--main_content_right--> 
+	<div id="about_us_wrapper">
+		
+		<h1>Our core team:</h1>
+		
+		<div id="people_wrapper">
+			
+			<div class="person">
+				<img src="images/about/andrea.jpg" />
+				
+				<span class="name">Andrea Lieberman</span><br />
+				<span class="title">Co-Founder and President</span>
+				
+				<p>
+					Andrea lives, breaths, eats, and drinks Biking Billboards. She dreams in black and yellow and packs a professional PR and business development punch to complement her pedal-to-the-metal passion and energy. Andrea won't stop til' Biking Billboards is available to clients from Seattle to Sarasota…and beyond!
+				</p>
+				
+			</div>
+			
+			<div class="person">
+				<img src="images/about/alyssa.jpg" />
+				
+				<span class="name">Alyssa Norwood</span><br />
+				<span class="title">VP of Operations</span>
+				
+				<p>
+					Alyssa has always liked to do things differently. For example, she selected basketball as her sport of choice despite a skyscraper height of 5'2. Alyssa continues this tradition at Biking Billboards by creating unique and custom campaigns for each and every client. Different is what we do best, and predictable is definitely <em>not</em> a word in our vocabulary.
+				</p>
+				
+			</div>
+			
+			<div class="person">
+				<img src="images/about/curtis.jpg" />
+				
+				<span class="name">Curtis Howell</span><br />
+				<span class="title">CTO</span>
+				
+				<p>
+					Give this guy a computer, a piece of duct tape, and a roll of dental floss and he can do just about anything. With expertise in Information Systems and Computer Science, we rely on Curtis for all things technical.
+				</p>
+				
+			</div>
+			
+			<div class="person">
+				<img src="images/about/landon.jpg" />
+				
+				<span class="name">Landon Machado</span><br />
+				<span class="title">Director of Operations</span>
+				
+				<p>
+					We're 99.9% sure this guy was a professional organizer in a past life, or at the very least a world-ranking circus juggler. Now, Landon manages everything ride execution and truly ensures that we get our clients' messages rolling with the perfect team at the helm, every time.
+				</p>
+				
+			</div>
+			
+			<div class="person">
+				<img src="images/about/jace.jpg" />
+				
+				<span class="name">Jace Lieberman</span><br />
+				<span class="title">Co-Founder</span>
+				
+				<p>
+					For Jace, age is truly only a number.  Barely armed with his driver’s license, the ripe age of 16 didn't stop Jace from pursuing the business opportunity that existed in Biking Billboards. Through the adventures of post-high school life have called Jace away from Biking Billboards, you’ll still catch him on a ride every once in a while, powering the business from the front lines!
+				</p>
+				
+			</div>
+
+		
+		</div><!-- people wrapper -->
+		
+		
+		<div id="peoplelists">
+			
+			<div class="peoplelist">
+				<h2>Advisors</h2>
+			
+				<p>
+					<strong>Emer Dooley</strong><br />
+					UW faculty member teaching technology strategy and entrepreneurship; Executive Director of Alliance of Angels
+				</p>
+			
+				<p>
+					<strong>Andy Sack</strong><br />
+					Venture Capitalist, Serial Entrepreneur, Executive Director of Tech Stars
+				</p>
+			
+				<p>
+					<strong>Debra Somberg</strong><br />
+					Venture Capitalist specializing in consumer goods, formerly managing partner of Maveron, LLC
+				</p>
+			
+				<p>
+					<strong>Curt Blake</strong><br />
+					Attorney specializing in technology startups, currently General Counsel to Spaceflight, Inc.
+				</p>
+		
+			</div><!-- people list -->
+			
+			
+			<div class="peoplelist">
+				<h2>Partners</h2>
+			
+				<p>
+					<strong>John Zilly & Matt Delcomyn</strong><br />
+					Creative Directors, Milepost 59
+				</p>
+			
+				<p>
+					<strong>Waldo Vega</strong><br />
+					Ballard Outdoor, Print Production & Design
+				</p>
+			
+				<p>
+					<strong>David Littrell</strong><br />
+					threeFishdesign, Industrial Design
+				</p>
+			
+				<p>
+					<strong>Gregg's Cycles</strong><br />
+					Equipment and Maintenance
+				</p>
+		
+			</div><!-- people list -->
+
+		</div><!-- people lists -->
+		
+	</div><!-- about us wrapper -->
+	
     
   </div>
   <!--main_content-->
   
-  <div id="footer">
-    <div id="footer_top"><img src="images/aboutus_02.jpg" width="960" height="131" alt="about us footer"></div>
-    <div id="footer_bottom">
-      <p>&copy; 2011 Biking Billboards, LLC  |  206.257.2017  |  <a href="http://www.mattdelcomyn.com/">site design: matt delcomyn</a></p>
-    </div>
-  </div>
-  <!--footer--> 
+	
+	<?php
+		footer(
+			array(
+				"images/footer/about/oaaa.jpg",
+				"images/footer/about/chamber.jpg",
+				"images/footer/common/city.jpg"
+			)
+		);
+	?>
   
 </div>
 <!--container--> 

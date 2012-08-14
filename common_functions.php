@@ -27,7 +27,7 @@ function top($page_index){
 	<div id="new_header">
 	
 		<!-- logo -->
-		<a href="/">
+		<a href="index.php">
 			<img id="logo" src="images/header/logo.jpg" />
 		</a>
 		
@@ -87,12 +87,6 @@ function top($page_index){
 			
 			
 			?>
-			<!--<li><a href="whyitseffective.php">why it's effective</a></li>
-			<li><a class="selected" href="howitworks.php">how it works</a></li>
-			<li><a href="results.php">the results</a></li>
-			<li><a href="ourclients.php">our clients</a></li>
-			<li><a href="aboutus.php">about us</a></li>
-			<li><a class="last_menu_item" href="contact.php">contact</a></li>-->
 		</ul> 
 
 	</div><!--new header-->
@@ -107,11 +101,16 @@ function footer($content){
 	#	array: list of image urls
 	#	1: show contact info (for home page)
 	
+	$id = "footer_upper";
+	if($content === 1 ){
+		$id = "footer_upper_home";
+	}
+	
 	?>
 	<div id="footer">
 		<div id="footer_white"></div>
 		
-		<div id="footer_upper">
+		<div id="<?= $id ?>">
 		
 			<?php
 			#array of image URIs

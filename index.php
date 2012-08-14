@@ -16,10 +16,21 @@
 <title>Biking Billboards Bicycle Advertising</title>
 <link rel="stylesheet" href="css/style.css" />
 
+<link rel="icon" 
+      type="image/png" 
+      href="images/favicon/favicon.png" />
+
 <!-- Addition by Carter Appleton -->
 <meta name="description" content="We're a smart and personable alternative to ho-hum advertising. Highly visible and cost-effective, we are Biking Billboards." />
 <meta name="google-site-verification" content="Ciq608hf1y3Inem_I8jWXZpk1X5ncc6q4EBQKhu7NO0" />
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script> 
+<script>window.jQuery || document.write("<script src='js/jquery-1.5.1.min.js'>\x3C/script>")</script>
+
 <script language="javascript" src="js/googleanalytics.js"></script>
+<script type="text/javascript" src="js/homepage.js"></script>
+
 <!-- End Addition -->
 
 </head>
@@ -33,8 +44,11 @@
 	
 	
 	<div id="main_content_home">
-	
-	
+		
+		<!-- displayed with code
+		<iframe src="http://player.vimeo.com/video/41461573?title=0&byline=0&portrait=0&autoplay=1" width="960" height="430" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		-->
+		
 		<div id="main_content_slideshow"> 
 		
 			<img src="images/index/carousel-1.jpg" alt="slideshow"/>
@@ -43,13 +57,12 @@
 			<img src="images/index/carousel-4.jpg" alt="slideshow"/>
 			<img src="images/index/carousel-5.jpg" alt="slideshow"/>
 			<img src="images/index/carousel-6.jpg" alt="slideshow"/>
-			
+						
 		</div><!-- slideshow -->
 		
 		<div id="video_play_button">
 			<img src="images/index/play-video.png">
 		</div>
-		
 		
 	</div>
 
@@ -68,8 +81,7 @@
 </div>
 <!--container--> 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script> 
-<script>window.jQuery || document.write("<script src='js/jquery-1.5.1.min.js'>\x3C/script>")</script> 
+ 
 <script src="js/jquery-cycle/jquery.cycle.min.js"></script> 
 <script src="js/script.js"></script> 
 

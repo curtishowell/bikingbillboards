@@ -18,6 +18,10 @@
 <title>How it Works</title>
 <link rel="stylesheet" href="css/style.css" />
 
+<link rel="icon" 
+      type="image/png" 
+      href="images/favicon/favicon.png" />
+
 <!-- Addition by Carter Appleton -->
 <meta name="description" content="How Biking Billboards works: simple, smart, customized, friendly..."/>
 <script language="javascript" src="js/googleanalytics.js"></script>
@@ -73,7 +77,7 @@
 				<img src="images/trailer-bullets/4.png" alt="4" />
 				<p>
 					<strong>Launch the Fleet</strong><br />
-					Our smart, friendly riders make excellent brand ambassadors,<br />
+					Our smart, friendly riders make excellent Brand Ambassadors,<br />
 					and they're experts at getting your message in front your audience.
 				</p>			
 			</div>
@@ -92,7 +96,7 @@
 			array(
 				"images/footer/how-it-works/biker-riding.jpg",
 				"images/footer/how-it-works/biker-helmet.jpg",
-				"images/footer/how-it-works/city.jpg"
+				"images/footer/common/city.jpg"
 			)
 		);
 	?>
