@@ -61,7 +61,7 @@
 				<span class="title">VP of Operations</span>
 				
 				<p>
-					Alyssa has always liked to do things differently. For example, she selected basketball as her sport of choice despite a skyscraper height of 5'2. Alyssa continues this tradition at Biking Billboards by creating unique and custom campaigns for each and every client. Different is what we do best, and predictable is definitely <em>not</em> a word in our vocabulary.
+					Alyssa has always liked to do things differently, which is why she began her career at a quirky local insurance company that was indeed, "a little different." Passionate about branding, storytelling, and building relationships through authentic marketing, Alyssa continues this tradition at Biking Billboards by creating unique and targeted campaigns for each and every client.
 				</p>
 				
 			</div>
@@ -74,18 +74,6 @@
 				
 				<p>
 					Give this guy a computer, a piece of duct tape, and a roll of dental floss and he can do just about anything. With expertise in Information Systems and Computer Science, we rely on Curtis for all things technical.
-				</p>
-				
-			</div>
-			
-			<div class="person">
-				<img src="images/about/landon.jpg" />
-				
-				<span class="name">Landon Machado</span><br />
-				<span class="title">Director of Operations</span>
-				
-				<p>
-					We're 99.9% sure this guy was a professional organizer in a past life, or at the very least a world-ranking circus juggler. Now, Landon manages everything ride execution and truly ensures that we get our clients' messages rolling with the perfect team at the helm, every time.
 				</p>
 				
 			</div>
