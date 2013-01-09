@@ -1,0 +1,12 @@
+[13-Nov-2012 02:48:56 UTC] PHP Warning:  scandir(images/left_slideshows/whyitseffective) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/p16adls4/public_html/dev/common_functions.php on line 173
+[13-Nov-2012 02:48:56 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/p16adls4/public_html/dev/common_functions.php on line 173
+[13-Nov-2012 02:48:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p16adls4/public_html/dev/common_functions.php on line 173
+[13-Nov-2012 02:48:57 UTC] PHP Warning:  scandir(images/left_slideshows/howitworks) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/p16adls4/public_html/dev/common_functions.php on line 173
+[13-Nov-2012 02:48:57 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/p16adls4/public_html/dev/common_functions.php on line 173
+[13-Nov-2012 02:48:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p16adls4/public_html/dev/common_functions.php on line 173
+[13-Nov-2012 02:49:08 UTC] PHP Warning:  scandir(images/left_slideshows/whyitseffective) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/p16adls4/public_html/dev/common_functions.php on line 173
+[13-Nov-2012 02:49:08 UTC] PHP Warning:  scandir(images/left_slideshows/howitworks) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/p16adls4/public_html/dev/common_functions.php on line 173
+[13-Nov-2012 02:49:08 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/p16adls4/public_html/dev/common_functions.php on line 173
+[13-Nov-2012 02:49:08 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/p16adls4/public_html/dev/common_functions.php on line 173
+[13-Nov-2012 02:49:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p16adls4/public_html/dev/common_functions.php on line 173
+[13-Nov-2012 02:49:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p16adls4/public_html/dev/common_functions.php on line 173
