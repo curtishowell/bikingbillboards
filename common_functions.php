@@ -11,11 +11,11 @@
  * 4 about us
  * 5 contact
  */
-function top($page_index){
+function top($page_index, $header_tagline){
 	
 	$pages = array(
-		"whyitseffective.php" => "why it's effective",
 		"howitworks.php" => "how it works",
+		"whyitseffective.php" => "why it's effective",
 		"results.php" => "the results",
 		"ourclients.php" => "our clients",
 		"aboutus.php" => "about us",
@@ -27,7 +27,7 @@ function top($page_index){
 	<div id="new_header">
 	
 		<!-- logo -->
-		<a href="index.php">
+		<a href="/">
 			<img id="logo" src="images/header/logo.jpg" />
 		</a>
 		
@@ -35,7 +35,8 @@ function top($page_index){
 		
 		
 		<?php 
-		#show header UI specific to home page
+		
+		#show header UI specific to home page cause it's huuuge!
 		if( $page_index === -1 ) {
 			?>
 			
@@ -46,10 +47,12 @@ function top($page_index){
 			</p>
 			
 			<?php
+			
 		} else {
+			
 			?>
 			
-			<h2>simple and effective advertising</h2>
+			<h2><?= $header_tagline ?></h2>
 			
 			<?php
 		}

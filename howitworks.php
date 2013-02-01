@@ -32,7 +32,7 @@
 <div id="container">
 
 <?php
-	top(1);
+	top(1, "simple and effective advertising");
 ?>
 
   

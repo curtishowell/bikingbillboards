@@ -32,7 +32,7 @@
 <div id="container">
 
 <?php
-	top(0);
+	top(0, "strong customer connections");
 ?>
 
   

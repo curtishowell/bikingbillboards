@@ -32,7 +32,7 @@
 <div id="container">
 
 <?php
-	top(4);
+	top(4, "committed to your success");
 ?>
   
   <div id="main_content">
