@@ -27,7 +27,7 @@ function top($page_index, $header_tagline){
 	<div id="new_header">
 	
 		<!-- logo -->
-		<a href="index.php">
+		<a href="/">
 			<img id="logo" src="images/header/logo.jpg" />
 		</a>
 		
