@@ -44,8 +44,11 @@
 	<div id="main_content_left">
 	
 		<?php
-			slideshow("ourclients");
-		?>	
+			//slideshow("ourclients");
+		?>
+
+		<img src="images/clients/sidebar.jpg" alt="Biking Billboards" />
+
 		
 	</div>
     

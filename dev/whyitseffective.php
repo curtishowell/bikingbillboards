@@ -32,7 +32,7 @@
 <div id="container">
 
 <?php
-	top(0, "strong customer connections");
+	top(1, "strong customer connections");
 ?>
 
   
@@ -41,8 +41,11 @@
 	
 	
 		<?php
-			slideshow("whyitseffective");
+			//slideshow("whyitseffective");
 		?>
+
+		<img src="images/whyitseffective/sidebar.jpg" alt="Biking Billboards" />
+
 
 	</div><!-- main_content_left -->
 

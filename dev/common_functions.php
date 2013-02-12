@@ -4,9 +4,9 @@
  * 
  * -2 everything else
  * -1 index
- * 0 why it's effective
- * 1 how it works
- * 2 the results
+ * 0 the results
+ * 1 why it's effective
+ * 2 how it works
  * 3 our clients
  * 4 about us
  * 5 contact
@@ -14,9 +14,9 @@
 function top($page_index, $header_tagline){
 	
 	$pages = array(
+		"results.php" => "the results",
 		"whyitseffective.php" => "why it's effective",
 		"howitworks.php" => "how it works",
-		"results.php" => "the results",
 		"ourclients.php" => "our clients",
 		"aboutus.php" => "about us",
 		"contact.php" => "contact"
