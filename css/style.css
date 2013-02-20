@@ -359,9 +359,13 @@ a#logo:hover {
 	width: 960px;
 	background-color: white;
 }
-#main_content_slideshow {
+.homepage_slideshow {
 	height: 430px;
 	width: 960px;
+}
+.slideshow_left img {
+	width: 320px;
+	overflow: hidden;
 }
 #main_content_slideshow img {
 	display: none;

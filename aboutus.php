@@ -58,7 +58,7 @@
 				<img src="images/about/alyssa.jpg" />
 				
 				<span class="name">Alyssa Norwood</span><br />
-				<span class="title">VP of Operations</span>
+				<span class="title">VP of Business Development</span>
 				
 				<p>
 					Alyssa has always liked to do things differently, which is why she began her career at a quirky local insurance company that was indeed, "a little different." Passionate about branding, storytelling, and building relationships through authentic marketing, Alyssa continues this tradition at Biking Billboards by creating unique and targeted campaigns for each and every client.

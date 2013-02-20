@@ -32,12 +32,23 @@
 <div id="container">
 
 <?php
-	top(1, "simple and effective advertising");
+	top(2, "simple and effective advertising");
 ?>
 
   
   <div id="main_content">
-    <div id="main_content_left"><img src="images/howitworks_01.jpg" width="320" height="430" alt="how it works"></div>
+
+
+	<div id="main_content_left">
+
+		<?php
+			//slideshow("howitworks");
+		?>
+		<img src="images/howitworks/sidebar.jpg" alt="Biking Billboards" />
+
+	</div>
+
+
     <div id="main_content_right">
       <div id="story">
 		

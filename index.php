@@ -49,7 +49,7 @@
 		<iframe src="http://player.vimeo.com/video/41461573?title=0&byline=0&portrait=0&autoplay=1" width="960" height="430" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		-->
 		
-		<div id="main_content_slideshow"> 
+		<div id="main_content_slideshow" class="homepage_slideshow"> 
 		
 			<img src="images/index/carousel-1.jpg" alt="slideshow"/>
 			<img src="images/index/carousel-2.jpg" alt="slideshow"/>

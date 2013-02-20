@@ -37,8 +37,22 @@
 
   
   <div id="main_content">
-    <div id="main_content_left"><img src="images/howitworks_01.jpg" width="320" height="430" alt="how it works"></div>
-    <div id="main_content_right">
+    
+
+
+
+	<div id="main_content_left">
+	
+		<?php
+			//slideshow("ourclients");
+		?>
+
+		<img src="images/clients/sidebar.jpg" alt="Biking Billboards" />
+
+		
+	</div>
+    
+	<div id="main_content_right">
       <div id="story">
 		
 		<img src="images/clients/client_logos.jpg" alt="Biking Billboards's successful clients" />

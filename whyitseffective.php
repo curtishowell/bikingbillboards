@@ -32,12 +32,24 @@
 <div id="container">
 
 <?php
-	top(0, "strong customer connections");
+	top(1, "strong customer connections");
 ?>
 
   
   <div id="main_content">
-    <div id="main_content_left"><img src="images/howitworks_01.jpg" width="320" height="430" alt="how it works"></div>
+    <div id="main_content_left">
+	
+	
+		<?php
+			//slideshow("whyitseffective");
+		?>
+
+		<img src="images/whyitseffective/sidebar.jpg" alt="Biking Billboards" />
+
+
+	</div><!-- main_content_left -->
+
+
     <div id="main_content_right">
       <div id="story">
 

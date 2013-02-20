@@ -4,9 +4,9 @@
  * 
  * -2 everything else
  * -1 index
- * 0 why it's effective
- * 1 how it works
- * 2 the results
+ * 0 the results
+ * 1 why it's effective
+ * 2 how it works
  * 3 our clients
  * 4 about us
  * 5 contact
@@ -14,9 +14,9 @@
 function top($page_index, $header_tagline){
 	
 	$pages = array(
-		"howitworks.php" => "how it works",
-		"whyitseffective.php" => "why it's effective",
 		"results.php" => "the results",
+		"whyitseffective.php" => "why it's effective",
+		"howitworks.php" => "how it works",
 		"ourclients.php" => "our clients",
 		"aboutus.php" => "about us",
 		"contact.php" => "contact"
@@ -160,6 +160,34 @@ function footer($content){
 	<?php
 	
 }
+
+
+function slideshow($folder){
+	?>
+	<div id="main_content_slideshow" class="slideshow_left">
+		
+		<?php
+			//sets the first image as initially visible in the slideshow
+			$counter = 0;
+			
+			foreach (scandir("images/left_slideshows/$folder") as $filename) {
+				if(strpos ($filename, ".") != 0) {
+					?>
+					
+					<img src="images/left_slideshows/<?= $folder ?>/<?= $filename ?>" alt="Biking Billboards slideshow image" />
+					
+					<?php
+				$counter++;
+				}
+			}
+			
+		?>
+				
+	</div><!-- main_content_slideshow -->
+	
+	<?php
+}
+
 
 ?>
 

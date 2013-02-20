@@ -41,7 +41,7 @@
 <div id="container">
 
 <?php
-	top(2, "memorable impressions");
+	top(0, "memorable impressions");
 ?>
 
   
@@ -155,7 +155,7 @@
 				</div>
 
 				<div class="header_column">
-					<img src="images/results/pemco-image.jpg" />
+					<img src="images/results/tmobile-image.jpg" />
 				</div>
 
 			</div> <!-- case header -->
