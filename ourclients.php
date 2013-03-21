@@ -32,7 +32,7 @@
 <div id="container">
 
 <?php
-	top(3, "super cool clients!");
+	top(3, "committed to our clients");
 ?>
 
   
