@@ -15,7 +15,7 @@
 <!--<![endif]-->
 <head>
 <meta charset="utf-8" />
-<title>How it Works</title>
+<title>Results :: Biking Billboards</title>
 <link rel="stylesheet" href="css/style.css" />
 
 <link rel="icon" 
