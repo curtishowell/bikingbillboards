@@ -1,15 +1,14 @@
 jQuery(document).ready(function(){
 
 	$('#main_content_slideshow').cycle({
-		/*
-		fx: 'scrollHorz',
-		timeout: 0,
-		speed: 500,
-		delay: 0,
-		next: '#next',
-		prev: '#prev'
-		*/
+
+		next: '#clients_slideshow_next',
+		prev: '#clients_slideshow_prev'
+		
 	});
+
+
+
 	
 	$('#gallery').find('.images').cycle({
 		next: '#next',

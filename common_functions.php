@@ -190,19 +190,3 @@ function slideshow($folder){
 
 
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
