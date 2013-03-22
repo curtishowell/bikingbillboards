@@ -15,7 +15,7 @@
 <!--<![endif]-->
 <head>
 <meta charset="utf-8" />
-<title>Biking Billboards :: Why it's Effective</title>
+<title>Why it's Effective :: Biking Billboards</title>
 <link rel="stylesheet" href="css/style.css" />
 
 <link rel="icon" 
