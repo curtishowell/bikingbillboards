@@ -93,9 +93,15 @@
 							//sets the first image as initially visible in the slideshow
 							$counter = 0;
 
+							//directory where the images are stored for the slideshow
 							$folder="images/clients/client-images";
+
+							$image_array = scandir("$folder");
+
+							//randomize the oder of the images in the directory
+							shuffle($image_array);
 							
-							foreach (scandir("$folder") as $filename) {
+							foreach ($image_array as $filename) {
 								if(strpos ($filename, ".") != 0) {
 									?>
 									
