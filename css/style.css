@@ -923,6 +923,7 @@ em {
 	float: left;
 	padding: 168px 19px;
 	cursor: pointer;
+	visibility: hidden;
 }
 
 .nav_arrows:hover {

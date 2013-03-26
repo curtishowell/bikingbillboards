@@ -43,6 +43,9 @@ $(function() { //dom ready
 				
 			});
 
+			//make the previous and next buttons visible
+			$('.nav_arrows').css('visibility', 'visible')
+
 		}
 	});
 
