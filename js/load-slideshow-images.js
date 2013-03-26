@@ -34,6 +34,15 @@ $(function() { //dom ready
 				}
 
 			}
+
+			//start the slideshow
+			$('#main_content_slideshow').cycle({
+
+				next: '#clients_slideshow_next',
+				prev: '#clients_slideshow_prev'
+				
+			});
+
 		}
 	});
 
