@@ -37,8 +37,7 @@ $(function() { //dom ready
 
 
 			//when the last image has loaded (decent indication that the slideshow is ready)...
-			//$('#main_content_slideshow').children().last().load(function(){
-			$('#main_content_slideshow').load(function(){
+			$('#main_content_slideshow').children().last().load(function(){
 
 				//start the slideshow...
 				$('#main_content_slideshow').cycle({
