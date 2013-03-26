@@ -47,8 +47,11 @@ $(function() { //dom ready
 					
 				});
 
-				//and make the previous and next buttons visible
+				//make the previous and next buttons visible...
 				$('.nav_arrows').css('visibility', 'visible')
+
+				//and slowly fade-in the arrows on the nav buttons
+				$('.nav_arrows img').fadeIn('slow')
 			});
 
 		}

@@ -921,10 +921,17 @@ em {
 
 .nav_arrows {
 	float: left;
+	width: 10px;
+	height: 20px;
 	padding: 168px 19px;
 	cursor: pointer;
 	visibility: hidden;
 }
+
+.nav_arrows img {
+	display: none;
+}
+
 
 .nav_arrows:hover {
 	background-color: #3d3d3d;
