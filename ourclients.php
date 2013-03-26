@@ -42,13 +42,6 @@
 
 
 	<div id="main_content_left">
-	
-		<?php
-			//slideshow("ourclients");
-		
-
-			//<img src="images/clients/sidebar.jpg" alt="Biking Billboards" />
-		?>
 
 		<div id="client_logos">
 
@@ -88,10 +81,11 @@
       			<div id="slideshow_wrapper">
 
 	      			<div id="main_content_slideshow">
-			
+						
+
 						<?php
-							//sets the first image as initially visible in the slideshow
-							$counter = 0;
+
+							//add one random photo to the slideshow, more to be added by js
 
 							//directory where the images are stored for the slideshow
 							$folder="images/clients/client-images";
@@ -108,7 +102,7 @@
 									<img src="<?= $folder ?>/<?= $filename ?>" alt="Biking Billboards slideshow image" />
 									
 									<?php
-								$counter++;
+									break;
 								}
 							}
 							
@@ -122,13 +116,8 @@
       		</div>
 
       	</div><!-- client_images -->
-		
-		<?php
-			//<img src="images/clients/client_logos.jpg" alt="Biking Billboards's successful clients" />
-		?>
 
-      </div>
-      <!--story-->
+      </div> <!--story-->
       
     </div>
     <!--main_content_right--> 
@@ -146,13 +135,14 @@
 		);
 	?>
   
-</div>
-<!--container--> 
+</div> <!--container-->
+
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script> 
 <script>window.jQuery || document.write("<script src='js/jquery-1.5.1.min.js'>\x3C/script>")</script> 
 <script src="js/jquery-cycle/jquery.cycle.min.js"></script> 
-<script src="js/script.js"></script> 
+<script src="js/script.js"></script>
+<script src="js/load-slideshow-images.js"></script>
 
 <!--[if lt IE 7 ]>
     <script src="js/dd_belatedpng.js"></script>

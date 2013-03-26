@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){
+$(function() { //dom ready
 
 	$('#main_content_slideshow').cycle({
 

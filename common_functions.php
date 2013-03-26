@@ -14,11 +14,11 @@
 function top($page_index, $header_tagline){
 	
 	$pages = array(
-		"results.php" => "the results",
+		"results.php" => "results",
 		"whyitseffective.php" => "why it's effective",
 		"howitworks.php" => "how it works",
 		"ourclients.php" => "our clients",
-		"aboutus.php" => "about us",
+		"aboutus.php" => "about",
 		"contact.php" => "contact"
 	);
 	
@@ -149,7 +149,8 @@ function footer($content){
 				date_default_timezone_set('America/Los_Angeles');
 				$year = date("Y");
 			?>
-			<p>&copy; <?= $year ?> Biking Billboards, LLC <span>|</span> <a href="tel:2062572017">206.257.2017</a> <span>|</span> <a href="http://www.milepost59.com/" target="_blank">Design by Milepost59</a></p>
+			<p id="footer_contact"><a href="tel:2062572017">206.257.2017</a> <span>|</span> <a href="mailto:info@bikingbillboards.com">info@bikingbillboards.com</a></p>
+			<p id="footer_info">&copy; <?= $year ?> Biking Billboards, LLC <span>|</span><a href="http://www.milepost59.com/" target="_blank">Design by Milepost59</a></p>
 		</div>
 	</div><!-- footer -->
 	

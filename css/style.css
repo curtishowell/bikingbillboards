@@ -184,7 +184,7 @@ a:hover {
 	/*height: 770px; why the fuck would we give the page a height?*/
 	width: 960px;
 	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 	margin-right: auto;
 	margin-left: auto;
 	-moz-box-shadow: 0px 0px 10px #333;
@@ -638,8 +638,7 @@ strong {
 	color: #ffd204;
 	font-size: 11px;
 	height: 25px;
-	padding-top: 15px;
-	padding-left: 30px;
+	padding: 15px 30px 0px;
 }
 
 #footer_lower span {
@@ -662,6 +661,13 @@ strong {
 	color: #ffd204;
 }
 
+#footer_lower #footer_contact {
+	float: left;
+}
+
+#footer_lower #footer_info {
+	float: right;
+}
 
 #story>p {
 	margin-bottom: 15px;
