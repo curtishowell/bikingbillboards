@@ -8,8 +8,9 @@
  * 1 why it's effective
  * 2 how it works
  * 3 our clients
- * 4 about us
- * 5 contact
+ * 4 media
+ * 5 about us
+ * 6 contact
  */
 function top($page_index, $header_tagline){
 	
@@ -18,6 +19,7 @@ function top($page_index, $header_tagline){
 		"whyitseffective.php" => "why it's effective",
 		"howitworks.php" => "how it works",
 		"ourclients.php" => "our clients",
+		"media.php" => "media",
 		"aboutus.php" => "about",
 		"contact.php" => "contact"
 	);

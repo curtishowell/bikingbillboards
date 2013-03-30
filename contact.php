@@ -32,7 +32,7 @@
 <div id="container">
 
 <?php
-	top(5, "ready to launch the fleet");
+	top(6, "ready to launch the fleet");
 ?>
   
   <div id="main_content">
