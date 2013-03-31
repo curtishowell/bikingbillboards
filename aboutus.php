@@ -46,7 +46,7 @@
 				<img src="images/about/andrea.jpg" />
 				
 				<span class="name">Andrea Lieberman</span><br />
-				<span class="title">Co-Founder and President</span>
+				<span class="title">Founder and President</span>
 				
 				<p>
 					Andrea lives, breaths, eats, and drinks Biking Billboards. She dreams in black and yellow and packs a professional PR and business development punch to complement her pedal-to-the-metal passion and energy. Andrea won't stop til' Biking Billboards is available to clients from Seattle to Sarasota…and beyond!
