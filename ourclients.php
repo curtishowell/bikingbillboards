@@ -61,6 +61,8 @@
 			<img src="images/clients/client-logos/obliteride.jpg" />
 			<img src="images/clients/client-logos/smcu.jpg" />
 			<img src="images/clients/client-logos/national-geographic-events.jpg" />
+			<img src="images/clients/client-logos/indie-flix.jpg" />
+			<img src="images/clients/client-logos/seattle-symphony.jpg" />
 
 		</div>
 

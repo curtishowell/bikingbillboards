@@ -904,6 +904,8 @@ em {
 #client_logos img {
 	margin-left: 5px;
 	margin-bottom: 2px;
+	width: 145px;
+	height: 73px;
 }
 
 #client_images {
