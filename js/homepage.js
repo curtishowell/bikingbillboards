@@ -15,6 +15,6 @@ function removeSlideshow(){
 }
 
 function addVideo(){
-	var videoEmbed = '<iframe src="http://player.vimeo.com/video/41461573?title=0&byline=0&portrait=0&autoplay=1" width="960" height="430" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>'
+	var videoEmbed = '<iframe src="http://fast.wistia.net/embed/iframe/pqyhr9z28y?autoPlay=true&controlsVisibleOnLoad=true&version=v1&videoHeight=540&videoWidth=960&volumeControl=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="960" height="540"></iframe>'
 	$('#main_content_home').prepend(videoEmbed)
 }
