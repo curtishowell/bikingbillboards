@@ -1,5 +1,3 @@
-
-
 <?php 
 	include("redirect.php");
 	include("common_functions.php") 
@@ -46,13 +44,16 @@
 		<div id="media_links">
 
 			<h2>Biking Billboards in the News</h2>
-
 			<!--<p><strong>Biking Billboards in the News</strong></p>-->
+				
+			<p><a target ="_blank" href="http://www.komonews.com/news/outdoors/Biking-Billboards-Theres-our-audience-218575271.html">KOMOnews.com article, Biking Billboards: 'there's our audience' </a></p>	
+			<p><a target ="_blank" href="https://vimeo.com/71302455"> KOMO News Story on Biking Billboards</a></p>
+			<p><a target ="_blank" href="http://www.komonews.com/news/local/Seattle-tunnel-project-could-push-rats-roaches-into-nearby-buildings-169554916.html">KOMO News Story on Sprague's Ratpocalypse, featuring Biking Billboards</a></p>
 			<p><a target="_blank" href="http://www.seattlebusinessmag.com/article/mothers-invention?page=0,0">Seattle Business Magazine</a></p>
-			<p><a target="_blank" href="http://www.komonews.com/news/local/Seattle-tunnel-project-could-push-rats-roaches-into-nearby-buildings-169554916.html">Komo News</a></p>
 			<p><a target="_blank" href="http://marketingnw.com/blog/newsmakers-6/">Marketing Northwest</a></p>
 			<p><a target="_blank" href="http://www.mybmedia.com/1/post/2012/05/mompreneurs-make-every-day-better.html">Minding Your Business</a></p>
-
+			
+			
 			<h2>Social Media</h2>
 			<p>
 				<a target="_blank" href="https://www.facebook.com/pages/Biking-Billboards/142350522475556"><img src="images/media/facebook.jpg" alt="Biking Billboards Facebook" /></a>

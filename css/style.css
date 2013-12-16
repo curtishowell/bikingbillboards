@@ -57,7 +57,7 @@ input, select {
 }
 body {
 	font:13px/1.231 sans-serif;
-*font-size:small;
+	font-size:small;
 }
 select, input, textarea, button {
 	font:99% sans-serif;
@@ -110,6 +110,7 @@ pre {
 	padding: 15px;
 }
 textarea {
+	resize:none;
 	overflow: auto;
 }
 .ie6 legend, .ie7 legend {
@@ -165,7 +166,7 @@ body, select, input, textarea {
 	font-weight: bold;
 }*/
 a, a:active, a:visited {
-	color: #607890;
+	color: #81C8DC;
 }
 a:hover {
 	color: #036;
@@ -465,10 +466,69 @@ label {
 input {
 	width: 250px;
 }
+.formOpen{
+	background-color:#eeeeee;
+	border-radius:17px 0 0 17px;
+}
+#main_content_center{
+	width:250px;
+	margin-top:30px;
+	float:left;
+	background-color:#eeeeee;
+	padding:5px;
+	border-radius: 7px;
+	display:none;
+}
 
 
+#first_name input, #last_name input, #phone input, #email input, #employees input{
+	width:111px;
+}
+#revenue input{
+	width:104px;
+}
+ #industry select{
+ 	width: 241px;
+ }
 
 
+#company input, #street textarea, #description textarea{
+	width:232px;
+	padding: 0 2px;
+
+}
+#zip, #state, #city, #first_name, #last_name, #phone, #email, #revenue, #industry, #employees, #company, #street, #description{
+	float:left;
+	margin:0 5px;
+}
+#zip, #zip input{
+	width:43px;
+}
+
+#state, #state input{
+	width:88px;
+}
+
+#city, #city input{
+	width:80px;
+}
+
+#zip input, #state input, #city input{
+	padding: 0 2px;
+	}
+
+#main_content_center input[type="submit"]{
+	margin-top: 10px;
+	width:100px;
+	margin-left:65px;
+	font-weight:bold;
+}
+#main_content_center label{
+	line-height:1.7em;
+	font-weight:bold;
+	font-size:12px;
+	cursor: auto;
+}
 
 
 
@@ -485,7 +545,7 @@ input {
 h1 {
 	color: #FFB000;
 	font-size: 16pt;
-	margin-bottom: 10px;
+	/*margin-bottom: 10px;*/
 }
 
 strong {
@@ -687,7 +747,7 @@ strong {
 /*contact page **************************/
 
 #contact_details {
-	margin-top: 100px;
+	margin-top: 30px;
 	margin-left: 50px;
 }
 
@@ -697,8 +757,8 @@ strong {
 }
 
 #contact_details p img {
-	vertical-align: -30%;
-	margin-top: 5px;
+	vertical-align: -60%;
+	
 }
 
 #contact_details strong {
@@ -721,20 +781,68 @@ strong {
 #contact_details a:visited {
 	color: black;
 }
-
+#contact_details p{
+	margin-top: 6px;
+}
 #front_door_image {
 	display: block;
 }
 
+#emailButton a{
+	cursor:pointer;
+}
+#front_door_image{
+	-moz-transition:width 2s;
+    -webkit-transition:width 2s;
+    -o-transition:width 2s;
+    transition:width 2s;
+}
+.shrink{
+	
+}
+button.successButton{
+	font-size:15px !important;
+	padding:4px 20px !important;
+	margin-top: -10px !important;
+	-moz-box-shadow: inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow: inset 1px 1px 1px 0px #fce2c1;
+	box-shadow: inset 1px 1px 1px 0px #fce2c1;
+	background-color:#FFE876;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#333333;
+	font-family:"Arial Rounded MT Bold", Arial, sans-serif;
+	padding:6px 30px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #eeeeee;
+	-webkit-gradient(linear, left top, left bottom, from(#ddd), to(#fafafa), color-stop(0.5, #fff), color-stop(0.6, #ddd), color-stop(0.95, #FFF));
+     
+}
+button.successButton:hover{
+	background-color:#FFE45C;
 
-
+}
+button.successButton:active{
+		background-color:#FFDA1F;
+}
+.noty_text{
+	font-size:18px;
+}
 /*about page **************************/
 #about_us_wrapper {
 	background-color: white;
 	padding: 20px 40px;
 	overflow: hidden;
 }
-
+#about_us_wrapper h1 > span{
+	font-size: 10px;
+	position:relative;
+	top:-7px;
+	color:black;
+}
 .person, .peoplelist {
 	float: left;
 	margin-right: 30px;
@@ -745,10 +853,16 @@ strong {
 	margin-bottom: 30px;
 }
 
+.person .bio{
+	font-size:90%;
+}
 .person, .peoplelist p {
 	font-size: 12px;
 }
-
+#people_wrapper{
+	overflow:hidden;
+	margin-top:10px;
+}
 .person .name {
 	color: #FFB000;
 	font-size: 16px;
@@ -770,7 +884,7 @@ strong {
 	clear: both;
 }
 
-.peoplelist h2 {
+.peoplelist h2, #open_positions h2 {
 	border-bottom: 1px solid #ffd100;
 	padding-bottom: 10px;
 	margin-bottom: 15px;
@@ -779,17 +893,36 @@ strong {
 }
 
 .peoplelist p {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-size: 12px;
 }
 
-.peoplelist p strong {
+.peoplelist p strong, dt {
 	color: black;
+	font-weight:bold;
 	font-size: 13px;
 }
 
 em {
 	font-style: italic;
+}
+#open_positions h1{
+	margin-bottom:none;
+	
+}
+#open_positions{
+	width:410px;
+}
+dl{
+	padding-bottom:1em;
+}
+#open_positions dd > a{
+	font-size:12px;
+	/*border-bottom: 1px solid #ffd100;*/
+}
+dd{
+	/*margin-left:1em;*/
+	width:90%;
 }
 
 /*results page **************************/
@@ -957,7 +1090,7 @@ em {
 	margin-top: 10px;
 }
 
-#media_links a {
+#media_links a, #open_positions a {
 	font-size: 12pt;
 	text-decoration: none;
 }
@@ -1121,54 +1254,57 @@ h1, h2 {
 .clearfix:after {
 	clear: both;
 }
-.clearfix {
-	zoom: 1;
-}
+
  @media all and (orientation:portrait) {
 }
  @media all and (orientation:landscape) {
 }
  @media screen and (max-device-width: 480px) {
-/* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+ /*html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
 }
+
+/* print styles below */
+
  @media print {
-* {
-	background: transparent !important;
-	color: black !important;
-	text-shadow: none !important;
-	filter:none !important;
-	-ms-filter: none !important;
-}
-a, a:visited {
-	color: #444 !important;
-	text-decoration: underline;
-}
-a[href]:after {
-	content: " (" attr(href) ")";
-}
-abbr[title]:after {
-	content: " (" attr(title) ")";
-}
-.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
-	content: "";
-}
-pre, blockquote {
-	border: 1px solid #999;
-	page-break-inside: avoid;
-}
-thead {
-	display: table-header-group;
-}
-tr, img {
-	page-break-inside: avoid;
-}
- @page {
-margin: 0.5cm;
-}
-p, h2, h3 {
-	orphans: 3;
-	widows: 3;
-}
-h2, h3 {
-	page-break-after: avoid;
-}
+	*{
+		background: transparent !important;
+		color: black !important;
+		text-shadow: none !important;
+		filter:none !important;
+		-ms-filter: none !important;
+	}
+	a, a:visited {
+		color: #444 !important;
+		text-decoration: underline;
+	}
+	a[href]:after {
+		content: " (" attr(href) ")";
+	}
+	abbr[title]:after {
+		content: " (" attr(title) ")";
+	}
+	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+		content: "";
+	}
+	pre, blockquote {
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+	thead {
+		display: table-header-group;
+	}
+	tr, img {
+		page-break-inside: avoid;
+	}
+	 @page {
+	margin: 0.5cm;
+	}
+	p, h2, h3 {
+		orphans: 3;
+		widows: 3;
+	}
+	h2, h3 {
+		page-break-after: avoid;
+	}
+	
+} /* this is indented for print styles */ 

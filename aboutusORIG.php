@@ -38,7 +38,7 @@
   <div id="main_content">
 	<div id="about_us_wrapper">
 		
-		<h1>Our core team:<span>We're hiring!</span></h1>
+		<h1>Our core team:</h1>
 		
 		<div id="people_wrapper">
 			
@@ -48,7 +48,7 @@
 				<span class="name">Andrea Lieberman</span><br />
 				<span class="title">Founder and President</span>
 				
-				<p class = "bio">
+				<p>
 					Andrea lives, breaths, eats, and drinks Biking Billboards. She dreams in black and yellow and packs a professional PR and business development punch to complement her pedal-to-the-metal passion and energy. Andrea won't stop til' Biking Billboards is available to clients from Seattle to Sarasota…and beyond!
 				</p>
 				
@@ -60,8 +60,9 @@
 				<span class="name">Laura Hurson</span><br />
 				<span class="title">Client Services Coordinator</span>
 				
-				<p class = "bio">
-					There is not a piece of client service information that escapes Laura’s steel trap memory and foolproof organizational skills.  She can keep databases current, artwork and collateral on track and on time, and research events and routes with precision.  When she’s not busy keeping our World Headquarters in peak performance mode, you can find her climbing rock walls in Eastern Washington or playing the banjo at square dances.
+				<p>
+					There is not a piece of client service information that escapes Laura’s steel trap memory and foolproof organizational skills.  She can keep databases current, artwork and collateral on track and on time, and research events and routes with precision.  Outside our world of yellow and black, you can find her climbing rock walls in Eastern Washington or playing the banjo at square dances.
+					
 				</p>
 				
 			</div>
@@ -72,8 +73,9 @@
 				<span class="name">Silas Strickland</span><br />
 				<span class="title">Logistics Director</span>
 				
-				<p class = "bio">
-					Silas has a hard time walking because his legs just want to pedal!  He’s the perfect match for keeping every one of Biking Billboards rides running smoothly.  From his elegant wool dress pants that double as weather-proof biking garb to his dedication to teaching underprivileged high-school students about the joys and technicalities of bicycling and bike building, Silas lives and breathes to promote two-wheeled, self-powered transportation.
+				<p>
+					Silas has a hard time walking because his legs just want to pedal!  He’s the perfect match for keeping every one of Biking Billboards' rides running smoothly.  From his elegant wool dress pants that double as weather-proof biking garb to his dedication to teaching underprivileged high-school students, Silas lives and breathes to promote two-wheeled, self-powered transportation.
+					
 				</p>
 				
 			</div>
@@ -84,7 +86,7 @@
 				<span class="name">Jace Lieberman</span><br />
 				<span class="title">Co-Founder</span>
 				
-				<p class = "bio">
+				<p>
 					For Jace, age is truly only a number.  Barely armed with his driver’s license, the ripe age of 16 didn't stop Jace from pursuing the business opportunity that existed in Biking Billboards. Through the adventures of post-high school life have called Jace away from Biking Billboards, you’ll still catch him on a ride every once in a while, powering the business from the front lines!
 				</p>
 				
@@ -93,17 +95,6 @@
 		
 		</div><!-- people wrapper -->
 		
-		<!-- open positions -->
-		<div id="open_positions">
-		<h2>Open Positions</h2>
-		<dl>
-			<dt>Logistics Director</dt>
-			<dd>
-				Handle the coordination	and	execution of all rides, ride planning, staffing and	equipment management, as well as rider hiring and training. <a href="documents/Biking_Billboards_Logistics_Director_Job_Description_Updated.pdf">more...</a>
-			</dd>
-
-		</dl>
-		</div>
 		
 		<div id="peoplelists">
 			

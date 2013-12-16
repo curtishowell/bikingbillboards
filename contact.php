@@ -14,7 +14,7 @@
 <html class="no-js" lang="en">
 <!--<![endif]-->
 <head>
-<meta charset="utf-8" />
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 <title>Contact Us :: Biking Billboards</title>
 <link rel="stylesheet" href="css/style.css" />
 
@@ -45,18 +45,13 @@
 				Contact us today.
 			</h2>
 			
-			<p>
-			<a href="mailto:info@bikingbillboards.com">
-				<img src="images/contact/mail.jpg" />
-				Email us
-			</a>
+			<p id="emailButton">
+			<a>
+				<img src="images/contact/mail.png" /><span>Contact us</span></a>
 			</p>
-			
+
 			<p>
-			<a href="tel:2062572017">
-				<img src="images/contact/people.jpg" />
-				Call us at 206.257.2017
-			</a>
+				<a href="tel:2062572017"><img src="images/contact/people.jpg" /><span>Call us at 206.257.2017</span></a>
 			</p>
 			
 			<p class="address">
@@ -73,7 +68,122 @@
 			
 		</div>
 	</div>
-	
+	<div id="main_content_center">
+		<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+			<input type=hidden name="oid" value="00DU0000000IN0B">
+			<!-- <input type=hidden name="retURL" value="http://hidden-waters-9268.herokuapp.com/contact.php#thankyou"> -->
+			<input type=hidden name="retURL" value="http://www.bikingbillboards.com/contact.php#thankyou">
+			
+			<select hidden="hidden" id="lead_source" name="lead_source"><option value="">--None--</option><option value="Advertisement">Advertisement</option>
+				<option value="Web" selected="selected">Web</option>
+			</select>
+				
+			<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+			 <!-- these lines if you wish to test in debug mode.                          -->
+			 <!-- <input type="hidden" name="debug" value=1>                              -->
+			 <!-- <input type="hidden" name="debugEmail" value="jvillars19@gmail.com">                                    -->
+			<!--  ----------------------------------------------------------------------  -->
+			<div>
+				<div id="first_name">
+					<label for="first_name">First Name *</label>
+					<input maxlength="40" name="first_name" size="20" type="text" />
+				</div>
+				<div id="last_name">
+					<label for="last_name">Last Name *</label>
+					<input maxlength="80" name="last_name" size="20" type="text" />
+				</div>
+				
+				
+				<div id="phone">
+					<label for="phone">Phone *</label>
+					<input maxlength="40" name="phone" size="20" type="text" />
+				</div>
+				<div id="email">
+					<label for="email">Email *</label>
+					<input maxlength="80" name="email" size="20" type="text" />
+				</div>
+				
+				
+				<div id="company">
+					<label for="company">Company Name *</label>
+					<input  maxlength="40" name="company" size="20" type="text" />
+				</div>
+				<div id="street">
+					<label for="street">Company Address</label>
+					<textarea name="street"></textarea>
+				</div>
+				<div id="city">
+					<label for="city">City</label>
+					<input   maxlength="40" name="city" size="20" type="text" />
+				</div>
+				<div id="state">
+					<label for="state">State/Province</label>
+					<input maxlength="20" name="state" size="20" type="text" />
+				</div>
+				<div id="zip">
+					<label for="zip">Zip</label>
+					<input maxlength="20" name="zip" size="20" type="text" />
+				</div>
+				
+				<div id="revenue">
+					<label for="revenue">Annual Revenue</label>
+					$<input name="revenue" size="20" type="text" />
+				</div>
+				<div id="employees">
+					<label for="employees"># of Employees</label>
+					<input name="employees" size="20" type="text" value="" />
+				</div>
+				<div id="industry">
+					<label for="industry">Industry</label>
+					<select name="industry">
+						<option value="">--None--</option>
+						<option value="Agriculture">Agriculture</option>
+						<option value="Apparel">Apparel</option>
+						<option value="Banking">Banking</option>
+						<option value="Biotechnology">Biotechnology</option>
+						<option value="Chemicals">Chemicals</option>
+						<option value="Communications">Communications</option>
+						<option value="Construction">Construction</option>
+						<option value="Consulting">Consulting</option>
+						<option value="Education">Education</option>
+						<option value="Electronics">Electronics</option>
+						<option value="Energy">Energy</option>
+						<option value="Engineering">Engineering</option>
+						<option value="Entertainment">Entertainment</option>
+						<option value="Environmental">Environmental</option>
+						<option value="Finance">Finance</option>
+						<option value="Food &amp; Beverage">Food &amp; Beverage</option>
+						<option value="Government">Government</option>
+						<option value="Healthcare">Healthcare</option>
+						<option value="Hospitality">Hospitality</option>
+						<option value="Insurance">Insurance</option>
+						<option value="Machinery">Machinery</option>
+						<option value="Manufacturing">Manufacturing</option>
+						<option value="Media">Media</option>
+						<option value="Not For Profit">Not For Profit</option>
+						<option value="Other">Other</option>
+						<option value="Recreation">Recreation</option>
+						<option value="Real Estate">Real Estate</option>
+						<option value="Retail">Retail</option>
+						<option value="Shipping">Shipping</option>
+						<option value="Technology">Technology</option>
+						<option value="Telecommunications">Telecommunications</option>
+						<option value="Transportation">Transportation</option>
+						<option value="Utilities">Utilities</option>
+					</select>
+				</div>
+				
+				<div id = "description">
+					<label for="description">Comments</label>
+					<textarea name="description"></textarea>
+				</div>
+				<input type="submit" name="submit">
+			</div>
+			
+
+		</form>
+	</div>	
     <div id="main_content_right">
 		
 		<img id="front_door_image" src="images/contact/front-door.jpg" alt="Biking Billboards world headquarters front door entrance" />
@@ -97,11 +207,16 @@
 </div>
 <!--container--> 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script> 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write("<script src='js/jquery-1.5.1.min.js'>\x3C/script>")</script> 
 <script src="js/jquery-cycle/jquery.cycle.min.js"></script> 
 <script src="js/script.js"></script> 
 
+
+<script type="text/javascript" src="js/noty/jquery.noty.js"></script>
+<script type="text/javascript" src="js/noty/layouts/top.js"></script>
+<script type="text/javascript" src="js/noty/themes/default.js"></script>
+<script src="js/addForm.js"></script>
 <!--[if lt IE 7 ]>
     <script src="js/dd_belatedpng.js"></script>
     <script>DD_belatedPNG.fix("img, .png_bg");</script>
