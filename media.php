@@ -13,7 +13,7 @@
 <!--<![endif]-->
 <head>
 <meta charset="utf-8" />
-<title>Our Clients :: Biking Billboards</title>
+<title>Media :: Biking Billboards</title>
 <link rel="stylesheet" href="css/style.css" />
 
 <link rel="icon" 

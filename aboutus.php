@@ -67,18 +67,6 @@
 			</div>
 			
 			<div class="person">
-				<img src="images/about/silas.JPG" />
-				
-				<span class="name">Silas Strickland</span><br />
-				<span class="title">Logistics Director</span>
-				
-				<p class = "bio">
-					Silas has a hard time walking because his legs just want to pedal!  He’s the perfect match for keeping every one of Biking Billboards rides running smoothly.  From his elegant wool dress pants that double as weather-proof biking garb to his dedication to teaching underprivileged high-school students about the joys and technicalities of bicycling and bike building, Silas lives and breathes to promote two-wheeled, self-powered transportation.
-				</p>
-				
-			</div>
-			
-			<div class="person">
 				<img src="images/about/jace.jpg" />
 				
 				<span class="name">Jace Lieberman</span><br />
@@ -86,6 +74,30 @@
 				
 				<p class = "bio">
 					For Jace, age is truly only a number.  Barely armed with his driver’s license, the ripe age of 16 didn't stop Jace from pursuing the business opportunity that existed in Biking Billboards. Through the adventures of post-high school life have called Jace away from Biking Billboards, you’ll still catch him on a ride every once in a while, powering the business from the front lines!
+				</p>
+				
+			</div>
+
+			<div class="person">
+				<img src="images/about/alyssa.jpg" />
+				
+				<span class="name">Alyssa Norwood</span><br />
+				<span class="title">VP of Business Development</span>
+				
+				<p class = "bio">
+					Alyssa has always liked to do things differently, which is why she began her career at a quirky local insurance company that was indeed, "a little different." Passionate about branding, storytelling, and building relationships through authentic marketing, Alyssa continues this tradition at Biking Billboards by creating unique and targeted campaigns for each and every client.
+				</p>
+				
+			</div>
+
+			<div class="person">
+				<img src="images/about/david.jpg" />
+				
+				<span class="name">David Swidler</span><br />
+				<span class="title">Logistics Director</span>
+				
+				<p class = "bio">
+					Modern science tells us that it would have been medically impossible for David to be born with a calendar in his hand. However, he picked one up soon after and the two have rarely been apart since. He brings his passion for schedules and logistics to every ride, making sure that they run flawlessly. David is also a member of local sketch comedy group The Habit, and lives with his wife in Magnolia, where he dreams of owning a dog.
 				</p>
 				
 			</div>
