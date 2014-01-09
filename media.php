@@ -59,8 +59,6 @@
 				<a target="_blank" href="https://www.facebook.com/pages/Biking-Billboards/142350522475556"><img src="images/media/facebook.jpg" alt="Biking Billboards Facebook" /></a>
 
 				<a target="_blank" href="https://twitter.com/BikingBillboard"><img src="images/media/twitter.jpg" alt="Biking Billboards Twitter" /></a>
-
-				<a target="_blank" href="http://instagram.com/bikingbillboards"><img src="images/media/instagram.jpg" alt="Biking Billboards Instagram" /></a>
 			</p>
 
 		</div>
