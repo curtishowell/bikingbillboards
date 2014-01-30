@@ -843,10 +843,11 @@ button.successButton:active{
 	top:-7px;
 	color:black;
 }
-.person, .peoplelist {
+.person, .peoplelist, #open_positions {
 	float: left;
 	margin-right: 30px;
 	width: 410px;
+
 }
 
 .person {
@@ -880,9 +881,9 @@ button.successButton:active{
 	float: left;
 }
 
-#peoplelists {
+/*#peoplelists {
 	clear: both;
-}
+}*/
 
 .peoplelist h2, #open_positions h2 {
 	border-bottom: 1px solid #ffd100;
@@ -907,7 +908,7 @@ em {
 	font-style: italic;
 }
 #open_positions h1{
-	margin-bottom:none;
+	margin-bottom: none;
 	
 }
 #open_positions{

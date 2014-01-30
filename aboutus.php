@@ -120,42 +120,11 @@
 		<div id="peoplelists">
 			
 			<div class="peoplelist">
-				<h2>Advisors</h2>
-			
-				<p>
-					<strong>Emer Dooley</strong><br />
-					UW faculty member teaching technology strategy and entrepreneurship; Executive Director of Alliance of Angels
-				</p>
-			
-				<p>
-					<strong>Andy Sack</strong><br />
-					Venture Capitalist, Serial Entrepreneur, Executive Director of Tech Stars
-				</p>
-			
-				<p>
-					<strong>Debra Somberg</strong><br />
-					Venture Capitalist specializing in consumer goods, formerly managing partner of Maveron, LLC
-				</p>
-			
-				<p>
-					<strong>Curt Blake</strong><br />
-					Attorney specializing in technology startups, currently General Counsel to Spaceflight, Inc.
-				</p>
-		
-			</div><!-- people list -->
-			
-			
-			<div class="peoplelist">
 				<h2>Partners</h2>
 			
 				<p>
-					<strong>John Zilly & Matt Delcomyn</strong><br />
+					<strong>John Zilly &amp; Matt Delcomyn</strong><br />
 					Creative Directors, Milepost 59
-				</p>
-			
-				<p>
-					<strong>Waldo Vega</strong><br />
-					Ballard Outdoor, Print Production & Design
 				</p>
 			
 				<p>
@@ -167,7 +136,15 @@
 					<strong>Gregg's Cycles</strong><br />
 					Equipment and Maintenance
 				</p>
-		
+
+				<p>
+					<strong>ARC Document Solutions</strong><br />
+				</p>
+
+				<p>
+					<strong>Riot Creative Imaging</strong><br />
+				</p>
+				
 			</div><!-- people list -->
 
 		</div><!-- people lists -->
