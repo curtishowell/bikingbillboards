@@ -73,10 +73,10 @@
 
 
 
-
+<!-- removed 1/29/2014
 			<img src="images/clients/client-logos/night-kitchen.jpg" />
 			<img src="images/clients/client-logos/edgeview.jpg" />
-			
+-->
 
 		</div>
 
