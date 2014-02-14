@@ -168,6 +168,7 @@ body, select, input, textarea {
 a, a:active, a:visited {
 	color: #81C8DC;
 }
+
 a:hover {
 	color: #036;
 }
@@ -1092,8 +1093,11 @@ dd{
 }
 
 #media_links a, #open_positions a {
-	font-size: 12pt;
 	text-decoration: none;
+}
+
+#media_links a {
+	font-size: 12pt;
 }
 
 #media_links a:hover {

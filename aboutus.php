@@ -38,7 +38,7 @@
   <div id="main_content">
 	<div id="about_us_wrapper">
 		
-		<h1>Our core team:<span>We're hiring!</span></h1>
+		<h1>Our core team</h1>
 		
 		<div id="people_wrapper">
 			
@@ -109,10 +109,7 @@
 		<div id="open_positions">
 		<h2>Open Positions</h2>
 		<dl>
-			<dt>Logistics Director</dt>
-			<dd>
-				Handle the coordination	and	execution of all rides, ride planning, staffing and	equipment management, as well as rider hiring and training. <a href="documents/Biking_Billboards_Logistics_Director_Job_Description_Updated.pdf">more...</a>
-			</dd>
+			<dt><a target="_blank" href="documents/Job_Description_Sales_Feb_2014.pdf">VP of Sales and Business Development</a></dt>
 
 		</dl>
 		</div>
