@@ -108,10 +108,15 @@
 		<!-- open positions -->
 		<div id="open_positions">
 		<h2>Open Positions</h2>
+		
 		<dl>
-			<dt><a target="_blank" href="documents/Job_Description_Sales_Feb_2014.pdf">Sales and Business Development</a></dt>
-
+			<dt><a target="_blank" href="documents/Job-Description-Sales Spring-2014.pdf">Sales and Business Development</a></dt>
 		</dl>
+
+		<dl>
+			<dt><a target="_blank" href="documents/Brand-Ambassador-Spring-2014.pdf">Brand Ambassador</a></dt>
+		</dl>
+		
 		</div>
 		
 		<div id="peoplelists">
