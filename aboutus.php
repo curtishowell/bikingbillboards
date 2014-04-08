@@ -79,13 +79,13 @@
 			</div>
 
 			<div class="person">
-				<img src="images/about/alyssa.jpg" />
+				<img src="images/about/shannon.jpg" />
 				
-				<span class="name">Alyssa Norwood</span><br />
-				<span class="title">VP of Business Development</span>
+				<span class="name">Shannon Conway</span><br />
+				<span class="title">Director of Special Projects</span>
 				
 				<p class = "bio">
-					Alyssa has always liked to do things differently, which is why she began her career at a quirky local insurance company that was indeed, "a little different." Passionate about branding, storytelling, and building relationships through authentic marketing, Alyssa continues this tradition at Biking Billboards by creating unique and targeted campaigns for each and every client.
+					She’s the Queen of Special Projects – from designing our media kit to researching new market opportunities to baking the best gluten-free cookies on the planet.  Shannon’s a master at keeping the whole team on-task, except for her penchant for sharing silly viral videos.  And when things get stressful in the office she harnesses her 20 years of yoga practice and brings us all back in harmony with the cycling universe.
 				</p>
 				
 			</div>
