@@ -726,6 +726,11 @@ strong {
 	float: left;
 }
 
+#footer_lower #footer_hiring {
+	float: left;
+	margin-left: 180px;
+}
+
 #footer_lower #footer_info {
 	float: right;
 }

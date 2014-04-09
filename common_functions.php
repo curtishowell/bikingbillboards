@@ -152,6 +152,7 @@ function footer($content){
 				$year = date("Y");
 			?>
 			<p id="footer_contact"><a href="tel:2062572017">206.257.2017</a> <span>|</span> <a href="mailto:info@bikingbillboards.com">info@bikingbillboards.com</a></p>
+			<p id="footer_hiring"><a href="aboutus.php#open_positions">We're Hiring!</a></p>
 			<p id="footer_info">&copy; <?= $year ?> Biking Billboards, LLC <span>|</span><a href="http://www.milepost59.com/" target="_blank">Design by Milepost59</a></p>
 		</div>
 	</div><!-- footer -->

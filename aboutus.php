@@ -107,8 +107,8 @@
 		
 		<!-- open positions -->
 		<div id="open_positions">
-		<h2>Open Positions</h2>
-		
+		<h2>We're Hiring</h2>
+
 		<dl>
 			<dt><a target="_blank" href="documents/Job-Description-Sales Spring-2014.pdf">Sales and Business Development</a></dt>
 		</dl>
