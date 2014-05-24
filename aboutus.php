@@ -110,10 +110,6 @@
 		<h2>We're Hiring</h2>
 
 		<dl>
-			<dt><a target="_blank" href="documents/Job-Description-Sales Spring-2014.pdf">Sales and Business Development</a></dt>
-		</dl>
-
-		<dl>
 			<dt><a target="_blank" href="documents/Brand-Ambassador-Spring-2014.pdf">Brand Ambassador</a></dt>
 		</dl>
 		
