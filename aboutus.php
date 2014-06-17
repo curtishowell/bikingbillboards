@@ -110,7 +110,7 @@
 		<h2>We're Hiring</h2>
 
 		<dl>
-			<dt><a target="_blank" href="documents/Brand-Ambassador-Spring-2014.pdf">Brand Ambassador</a></dt>
+			<dt><a target="_blank" href="documents/Client-Services-Coordinator-June-2014.pdf">Client Services Coordinator</a></dt>
 		</dl>
 		
 		</div>
